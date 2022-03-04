@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(179, 38, 28);
+    background-color: rgb(220, 4, 5);
 
     main{
         width: 85%;
@@ -10,6 +10,7 @@ body{
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 5px;
+        box-shadow: 30px 30px 12px rgb(0, 0, 0);
 
         .film-container{
             display: flex;
@@ -29,12 +30,12 @@ body{
                 justify-content: center;
                 align-items: center;
                 color: rgb(230, 230, 230);
-                box-shadow: 0 0 15px rgb(0, 0, 0);
+                box-shadow: 0 0 20px rgb(0, 0, 0);
                 border-radius: 5px;
                 cursor: pointer;
 
                 &:hover{
-                    box-shadow: 0 0 20px rgb(179, 38, 28);
+                    box-shadow: 0 0 30px rgb(220, 4, 5);
                 }
 
 

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #b3261c;
+  background-color: #dc0405;
 }
 
 body main {
@@ -17,6 +17,7 @@ body main {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 5px;
+  box-shadow: 30px 30px 12px black;
 }
 
 body main .film-container {
@@ -38,13 +39,13 @@ body main .film-container .my_card-film-container {
   justify-content: center;
   align-items: center;
   color: #e6e6e6;
-  box-shadow: 0 0 15px black;
+  box-shadow: 0 0 20px black;
   border-radius: 5px;
   cursor: pointer;
 }
 
 body main .film-container .my_card-film-container:hover {
-  box-shadow: 0 0 20px #b3261c;
+  box-shadow: 0 0 30px #dc0405;
 }
 
 body main .film-container .my_card-film-container ul {
