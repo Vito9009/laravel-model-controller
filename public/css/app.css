@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b3261c;
+}
+
+body main {
+  width: 85%;
+  margin: 0 auto;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+body main .film-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+body main .film-container .my_card-film-container {
+  width: calc(20% - 40px);
+  height: 250px;
+  margin: 20px 20px;
+  padding: 20px;
+  background-color: #5a5a5a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e6e6e6;
+  box-shadow: 0 0 15px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body main .film-container .my_card-film-container:hover {
+  box-shadow: 0 0 20px #b3261c;
+}
+
+body main .film-container .my_card-film-container ul {
+  padding: 20px 0;
+}
+
+body main .film-container .my_card-film-container ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+body main .film-container .my_card-film-container ul li b {
+  color: black;
+}
+
